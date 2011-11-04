@@ -51,6 +51,7 @@ optional argument.
 %doc %{_texmfdistdir}/source/latex/svn-prov/Makefile
 %doc %{_texmfdistdir}/source/latex/svn-prov/svn-prov.dtx
 %doc %{_texmfdistdir}/source/latex/svn-prov/svn-prov.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +62,5 @@ optional argument.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
