@@ -6,7 +6,7 @@
 # catalog-version 3.1862
 Name:		texlive-svn-prov
 Version:	3.1862
-Release:	10
+Release:	11
 Summary:	Subversion variants of \Provides... macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/svn-prov
